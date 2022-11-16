@@ -1,0 +1,42 @@
+.list-item {
+  border: 1px solid #b6c3ca;
+  padding: 10px;
+  display: flex;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.details-container {
+  flex-grow: 1;
+}
+.dp {
+  color: #ffffff;
+  font-size: 20px;
+  margin-right: 15px;
+  padding: 10px;
+  border-radius: 40px;
+  background-color: #10b981;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+.website {
+  font-size: 20px;
+  font-weight: bold;
+}
+.password {
+  font-size: 17px;
+}
+.btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.stars {
+  width: 120px;
+}
+@media (min-width: 768px) {
+  .list-item {
+    margin-right: 20px;
+    width: 400px;
+  }
+}
